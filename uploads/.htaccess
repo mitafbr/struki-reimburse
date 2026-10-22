@@ -1,0 +1,5 @@
+# NFR-03: file di folder upload tidak boleh dijalankan sebagai skrip
+Options -Indexes
+<FilesMatch "\.(php|php\d|phtml|phar|pl|py|cgi|sh)$">
+  Require all denied
+</FilesMatch>

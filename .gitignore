@@ -1,0 +1,8 @@
+uploads/nota/*
+!uploads/nota/.gitkeep
+uploads/transfer/*
+!uploads/transfer/.gitkeep
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
